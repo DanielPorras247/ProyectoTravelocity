@@ -4,9 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class BookHotelElements {
-    /**
-     * Hotels search elements
-     */
+
     public static final Target BTN_GOING_TO = Target.the("Going to button").located(By.xpath("//button[@aria-label='Going to']"));
     public static final Target BTN_CHECK_IN = Target.the("Check-in Calendar").located(By.id("d1-btn"));
     public static final Target BTN_CHECK_OUT = Target.the("Check-out Calendar").located(By.id("d2-btn"));
